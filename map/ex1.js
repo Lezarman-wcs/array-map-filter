@@ -22,6 +22,7 @@ En sortie: [
  */
 
 function getStringsLength(strings) {
+  return strings.map(name => (`${name} contains ${name.length} characters`));
 }
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
